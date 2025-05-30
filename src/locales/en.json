@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "login": "Login",
+    "register": "Register",
+    "profile": "My Profile",
+    "logout": "Logout"
+  },
+  "home": {
+    "hero": {
+      "title": "Professional IT Support in Benin",
+      "subtitle": "IT solutions tailored to your needs",
+      "cta": "Request Support"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Complete solutions for all your IT needs",
+      "repair": {
+        "title": "Repair",
+        "description": "Fast and efficient troubleshooting of your IT equipment"
+      },
+      "maintenance": {
+        "title": "Maintenance",
+        "description": "Regular maintenance to prevent breakdowns and optimize your systems"
+      },
+      "network": {
+        "title": "Networks",
+        "description": "Installation and configuration of secure computer networks"
+      },
+      "security": {
+        "title": "Security",
+        "description": "Protection of your data and systems against threats"
+      }
+    },
+    "about": {
+      "title": "Why Choose Us",
+      "description": "Our team of IT experts offers customized solutions and exceptional customer service.",
+      "points": {
+        "experience": "Local expertise",
+        "support": "Responsive support",
+        "price": "Competitive pricing",
+        "quality": "Quality service"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "email": "Email",
+      "password": "Password",
+      "button": "Login",
+      "forgotPassword": "Forgot Password?",
+      "noAccount": "Don't have an account?",
+      "register": "Register"
+    },
+    "register": {
+      "title": "Register",
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "button": "Register",
+      "hasAccount": "Already have an account?",
+      "login": "Login"
+    },
+    "profile": {
+      "title": "My Profile",
+      "personalInfo": "Personal Information",
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "updateButton": "Update",
+      "passwordChange": "Change Password",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmNewPassword": "Confirm New Password",
+      "changePasswordButton": "Change Password"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Our team is ready to help you",
+    "name": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "subject": "Subject",
+    "message": "Message",
+    "button": "Send",
+    "info": {
+      "title": "Contact Information",
+      "address": "Cotonou, Benin",
+      "phone": "+229 XX XX XX XX",
+      "email": "contact@support-it-benin.com",
+      "hours": "Mon - Fri: 8am - 6pm"
+    }
+  },
+  "footer": {
+    "description": "IT Support Benin offers repair, maintenance, and IT consulting services for individuals and businesses.",
+    "copyright": "© 2025 IT Support Benin. All rights reserved.",
+    "links": {
+      "title": "Quick Links",
+      "home": "Home",
+      "services": "Services",
+      "contact": "Contact",
+      "faq": "FAQ",
+      "terms": "Terms of Use",
+      "privacy": "Privacy Policy"
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Cotonou, Benin",
+      "phone": "+229 XX XX XX XX",
+      "email": "contact@support-it-benin.com"
+    }
+  }
+}

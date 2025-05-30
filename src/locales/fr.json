@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "login": "Connexion",
+    "register": "Inscription",
+    "profile": "Mon Profil",
+    "logout": "Déconnexion"
+  },
+  "home": {
+    "hero": {
+      "title": "Support Informatique Professionnel au Bénin",
+      "subtitle": "Des solutions informatiques adaptées à vos besoins",
+      "cta": "Demander une assistance"
+    },
+    "services": {
+      "title": "Nos services",
+      "subtitle": "Des solutions complètes pour tous vos besoins informatiques",
+      "repair": {
+        "title": "Réparation",
+        "description": "Dépannage rapide et efficace de vos équipements informatiques"
+      },
+      "maintenance": {
+        "title": "Maintenance",
+        "description": "Entretien régulier pour prévenir les pannes et optimiser vos systèmes"
+      },
+      "network": {
+        "title": "Réseaux",
+        "description": "Installation et configuration de réseaux informatiques sécurisés"
+      },
+      "security": {
+        "title": "Sécurité",
+        "description": "Protection de vos données et systèmes contre les menaces"
+      }
+    },
+    "about": {
+      "title": "Pourquoi nous choisir",
+      "description": "Notre équipe d'experts en informatique offre des solutions personnalisées et un service client exceptionnel.",
+      "points": {
+        "experience": "Expertise locale",
+        "support": "Support réactif",
+        "price": "Tarifs compétitifs",
+        "quality": "Service de qualité"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Connexion",
+      "email": "Email",
+      "password": "Mot de passe",
+      "button": "Se connecter",
+      "forgotPassword": "Mot de passe oublié ?",
+      "noAccount": "Pas encore de compte ?",
+      "register": "S'inscrire"
+    },
+    "register": {
+      "title": "Inscription",
+      "name": "Nom complet",
+      "email": "Email",
+      "phone": "Téléphone",
+      "password": "Mot de passe",
+      "confirmPassword": "Confirmer le mot de passe",
+      "button": "S'inscrire",
+      "hasAccount": "Déjà un compte ?",
+      "login": "Se connecter"
+    },
+    "profile": {
+      "title": "Mon Profil",
+      "personalInfo": "Informations personnelles",
+      "name": "Nom complet",
+      "email": "Email",
+      "phone": "Téléphone",
+      "updateButton": "Mettre à jour",
+      "passwordChange": "Changer de mot de passe",
+      "currentPassword": "Mot de passe actuel",
+      "newPassword": "Nouveau mot de passe",
+      "confirmNewPassword": "Confirmer le nouveau mot de passe",
+      "changePasswordButton": "Changer le mot de passe"
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Notre équipe est prête à vous aider",
+    "name": "Nom complet",
+    "email": "Email",
+    "phone": "Téléphone",
+    "subject": "Sujet",
+    "message": "Message",
+    "button": "Envoyer",
+    "info": {
+      "title": "Informations de contact",
+      "address": "Cotonou, Bénin",
+      "phone": "+229 XX XX XX XX",
+      "email": "contact@support-it-benin.com",
+      "hours": "Lun - Ven: 8h - 18h"
+    }
+  },
+  "footer": {
+    "description": "Support Informatique Bénin offre des services de dépannage, maintenance et conseil informatique pour particuliers et entreprises.",
+    "copyright": "© 2025 Support Informatique Bénin. Tous droits réservés.",
+    "links": {
+      "title": "Liens rapides",
+      "home": "Accueil",
+      "services": "Services",
+      "contact": "Contact",
+      "faq": "FAQ",
+      "terms": "Conditions d'utilisation",
+      "privacy": "Politique de confidentialité"
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Cotonou, Bénin",
+      "phone": "+229 XX XX XX XX",
+      "email": "contact@support-it-benin.com"
+    }
+  }
+}
