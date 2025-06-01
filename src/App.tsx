@@ -5,6 +5,7 @@ import { AnimatePresence } from 'framer-motion';
 // Layouts
 import MainLayout from './layouts/MainLayout';
 import AuthLayout from './layouts/AuthLayout';
+import ClientLayout from './layouts/ClientLayout';
 
 // Pages
 import HomePage from './pages/HomePage';
@@ -16,11 +17,11 @@ import ContactPage from './pages/ContactPage';
 import FaqPage from './pages/FaqPage';
 import NotFoundPage from './pages/NotFoundPage';
 
-// Ticket Pages
-import DashboardPage from './pages/tickets/DashboardPage';
-import TicketsPage from './pages/tickets/TicketsPage';
-import CreateTicketPage from './pages/tickets/CreateTicketPage';
-import TicketDetailPage from './pages/tickets/TicketDetailPage';
+// Client Pages
+import DashboardPage from './pages/client/DashboardPage';
+import TicketsPage from './pages/client/TicketsPage';
+import CreateTicketPage from './pages/client/CreateTicketPage';
+import TicketDetailPage from './pages/client/TicketDetailPage';
 
 // Components
 import LoadingSpinner from './components/ui/LoadingSpinner';
@@ -37,8 +38,11 @@ function App() {
               <Route path="services" element={<ServicesPage />} />
               <Route path="contact" element={<ContactPage />} />
               <Route path="faq" element={<FaqPage />} />
-              <Route path="tickets" element={<DashboardPage />} />
-              <Route path="tickets/list" element={<TicketsPage />} />
+            </Route>
+            
+            <Route path="/client" element={<ClientLayout />}>
+              <Route index element={<DashboardPage />} />
+              <Route path="tickets" element={<TicketsPage />} />
               <Route path="tickets/create" element={<CreateTicketPage />} />
               <Route path="tickets/:id" element={<TicketDetailPage />} />
             </Route>
@@ -57,4 +61,4 @@ function App() {
   );
 }
 
-export default App
+export default App;

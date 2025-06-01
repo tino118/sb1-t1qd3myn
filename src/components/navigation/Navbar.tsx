@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Menu, X, Globe, ChevronDown, MessageSquare } from 'lucide-react';
+import { Menu, X, Globe, ChevronDown, LayoutDashboard } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 import Button from '../ui/Button';
 
@@ -21,7 +21,6 @@ const Navbar: React.FC = () => {
     setLangMenuOpen(false);
   };
   
-  // Handle scroll events
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
@@ -31,7 +30,6 @@ const Navbar: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   
-  // Close mobile menu on navigation
   useEffect(() => {
     closeMenu();
   }, [location.pathname]);
@@ -61,10 +59,10 @@ const Navbar: React.FC = () => {
             <NavLink to="/faq">{t('nav.faq')}</NavLink>
             
             {isAuthenticated && (
-              <NavLink to="/tickets">
+              <NavLink to="/client">
                 <div className="flex items-center">
-                  <MessageSquare size={16} className="mr-1" />
-                  Tableau de bord
+                  <LayoutDashboard size={16} className="mr-1" />
+                  Espace client
                 </div>
               </NavLink>
             )}
@@ -103,7 +101,7 @@ const Navbar: React.FC = () => {
               {isAuthenticated ? (
                 <>
                   <Link to="/auth/profile">
-                    <Button variant="outline\" size="sm">{t('nav.profile')}</Button>
+                    <Button variant="outline" size="sm">{t('nav.profile')}</Button>
                   </Link>
                   <Button variant="ghost" size="sm" onClick={logout}>
                     {t('nav.logout')}
@@ -142,10 +140,10 @@ const Navbar: React.FC = () => {
             <MobileNavLink to="/faq">{t('nav.faq')}</MobileNavLink>
             
             {isAuthenticated && (
-              <MobileNavLink to="/tickets">
+              <MobileNavLink to="/client">
                 <div className="flex items-center">
-                  <MessageSquare size={16} className="mr-2" />
-                  Tableau de bord
+                  <LayoutDashboard size={16} className="mr-2" />
+                  Espace client
                 </div>
               </MobileNavLink>
             )}
@@ -173,8 +171,8 @@ const Navbar: React.FC = () => {
             <div className="mt-4 px-4 pt-2 border-t border-gray-100">
               {isAuthenticated ? (
                 <>
-                  <Link to="/auth/profile\" className="block w-full mb-2">
-                    <Button variant="outline\" fullWidth>{t('nav.profile')}</Button>
+                  <Link to="/auth/profile" className="block w-full mb-2">
+                    <Button variant="outline" fullWidth>{t('nav.profile')}</Button>
                   </Link>
                   <Button variant="ghost" fullWidth onClick={logout}>
                     {t('nav.logout')}
