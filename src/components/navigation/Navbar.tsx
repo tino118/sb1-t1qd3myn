@@ -37,11 +37,9 @@ const Navbar: React.FC = () => {
   }, [location.pathname]);
 
   return (
-    <nav 
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
-      }`}
-    >
+    <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${
+      isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
+    }`}>
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
@@ -66,7 +64,7 @@ const Navbar: React.FC = () => {
               <NavLink to="/tickets">
                 <div className="flex items-center">
                   <MessageSquare size={16} className="mr-1" />
-                  Tickets
+                  Tableau de bord
                 </div>
               </NavLink>
             )}
@@ -147,7 +145,7 @@ const Navbar: React.FC = () => {
               <MobileNavLink to="/tickets">
                 <div className="flex items-center">
                   <MessageSquare size={16} className="mr-2" />
-                  Tickets
+                  Tableau de bord
                 </div>
               </MobileNavLink>
             )}
@@ -239,3 +237,5 @@ const MobileNavLink: React.FC<{ to: string, children: React.ReactNode }> = ({ to
 };
 
 export default Navbar;
+
+export default Navbar
