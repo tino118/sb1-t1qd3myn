@@ -17,6 +17,7 @@ import FaqPage from './pages/FaqPage';
 import NotFoundPage from './pages/NotFoundPage';
 
 // Ticket Pages
+import DashboardPage from './pages/tickets/DashboardPage';
 import TicketsPage from './pages/tickets/TicketsPage';
 import CreateTicketPage from './pages/tickets/CreateTicketPage';
 import TicketDetailPage from './pages/tickets/TicketDetailPage';
@@ -36,7 +37,8 @@ function App() {
               <Route path="services" element={<ServicesPage />} />
               <Route path="contact" element={<ContactPage />} />
               <Route path="faq" element={<FaqPage />} />
-              <Route path="tickets" element={<TicketsPage />} />
+              <Route path="tickets" element={<DashboardPage />} />
+              <Route path="tickets/list" element={<TicketsPage />} />
               <Route path="tickets/create" element={<CreateTicketPage />} />
               <Route path="tickets/:id" element={<TicketDetailPage />} />
             </Route>
@@ -54,5 +56,3 @@ function App() {
     </Suspense>
   );
 }
-
-export default App;
