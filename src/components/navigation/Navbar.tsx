@@ -103,7 +103,7 @@ const Navbar: React.FC = () => {
               {isAuthenticated ? (
                 <>
                   <Link to="/auth/profile">
-                    <Button variant="outline\" size="sm">{t('nav.profile')}</Button>
+                    <Button variant="outline" size="sm">{t('nav.profile')}</Button>
                   </Link>
                   <Button variant="ghost" size="sm" onClick={logout}>
                     {t('nav.logout')}
@@ -173,8 +173,8 @@ const Navbar: React.FC = () => {
             <div className="mt-4 px-4 pt-2 border-t border-gray-100">
               {isAuthenticated ? (
                 <>
-                  <Link to="/auth/profile\" className="block w-full mb-2">
-                    <Button variant="outline\" fullWidth>{t('nav.profile')}</Button>
+                  <Link to="/auth/profile" className="block w-full mb-2">
+                    <Button variant="outline" fullWidth>{t('nav.profile')}</Button>
                   </Link>
                   <Button variant="ghost" fullWidth onClick={logout}>
                     {t('nav.logout')}
@@ -237,5 +237,3 @@ const MobileNavLink: React.FC<{ to: string, children: React.ReactNode }> = ({ to
 };
 
 export default Navbar;
-
-export default Navbar
